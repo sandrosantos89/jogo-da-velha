@@ -1,0 +1,68 @@
+
+body{
+    text-align: center;
+    background-color: rgb(32, 97, 88);
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+    
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+    
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.button{
+    width: 70px;
+    margin: auto;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+.button:hover{
+    background-color:rgba(255, 0, 0, 0.5);
+    border-color: white;
+}
